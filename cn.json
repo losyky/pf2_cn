@@ -1,9 +1,9 @@
 {
   "ACTOR": {
     "TypeCharacter": "玩家角色",
-    "TypeFamiliar": "熟练度",
+    "TypeFamiliar": "仆从",
     "TypeHazard": "危害",
-    "TypeLoot": "物品栏",
+    "TypeLoot": "战利品",
     "TypeNpc": "NPC",
     "TypeVehicle": "载具"
   },
@@ -463,19 +463,19 @@
       "AppliedBy": "应用于: {状态列表}",
       "Expired": "过期",
       "RemainingDuration": {
-        "MultipleYears": "{years} years remaining",
-        "SingleYear": "1 year remaining",
-        "MultipleWeeks": "{weeks} weeks remaining",
-        "SingleWeek": "1 week remaining",
-        "MultipleDays": "{days} days remaining",
-        "MultipleHours": "{hours} hours remaining",
-        "MultipleMinutes": "{最小utes} 最小utes remaining",
-        "MultipleRounds": "{轮s} 轮s remaining",
-        "SingleRound": "1 轮 remaining",
-        "MultipleSeconds": "{seconds} seconds remaining",
-        "SingleSecond": "1 second remaining",
-        "ZeroRoundsExpireTurnEnd": "0 轮s remaining, expires end of 先攻 {先攻}",
-        "ZeroRoundsExpireTurnStart": "0 轮s remaining, expires start of 先攻 {先攻}"
+        "MultipleYears": "剩余 {years} 年",
+        "SingleYear": "剩余1年",
+        "MultipleWeeks": "剩余 {weeks} 周",
+        "SingleWeek": "剩余1周",
+        "MultipleDays": "剩余 {days} 天",
+        "MultipleHours": "剩余 {hours} 小时",
+        "MultipleMinutes": "剩余 {minutes} 分钟",
+        "MultipleRounds": "剩余{turns} 轮",
+        "SingleRound": "剩余1轮",
+        "MultipleSeconds": "剩余 {seconds} 秒",
+        "SingleSecond": "剩余1秒",
+        "ZeroRoundsExpireTurnEnd": "剩余0轮, 将在先攻 {Initiative}结束时到期",
+        "ZeroRoundsExpireTurnStart": "剩余0轮, 将在先攻 {Initiative}开始时到期"
       },
       "Sustained": "持续的",
       "UnlimitedDuration": "无限持续"
@@ -507,7 +507,7 @@
     "FeatClassHeader": "职业专长",
     "FeatFeatSummary": "专长列表",
     "FeatGeneralHeader": "通用专长",
-    "FeatPFSBoonHeader": "社会恩赐",
+    "FeatPFSBoonHeader": "协会福利",
     "FeatDeityBoonHeader": "神祇恩赐",
     "FeatCurseHeader": "诅咒",
     "FeatLevelLabel": "等级",
@@ -655,7 +655,7 @@
     "LanguageRequian": "招魂语",
     "LanguageShadowtongue": "阴影语",
     "LanguageShoanti": "休盎提语",
-    "LanguageShoony": "Shoony",
+    "LanguageShoony": "狗人语",
     "LanguageSkald": "斯加德歌语",
     "LanguageSphinx": "斯芬克斯语",
     "LanguageStrix": "鸮形人语",
@@ -847,7 +847,7 @@
     "ProficiencyLevel2": "expert",
     "ProficiencyLevel3": "master",
     "ProficiencyLevel4": "legendary",
-    "ProficiencyRankLabel": "教授",
+    "ProficiencyRankLabel": "熟练等级",
     "PropertyRuneLabel1": "性能符文 (1st)",
     "PropertyRuneLabel2": "性能符文 (2nd)",
     "PropertyRuneLabel3": "性能符文 (3rd)",
@@ -1080,13 +1080,13 @@
     "SpellLevel7": "7th 等级",
     "SpellLevel8": "8th 等级",
     "SpellLevel9": "9th 等级",
-    "SpellLevelLabel": "法术 等级",
+    "SpellLevelLabel": "法术等级",
     "SpellPreparedLabel": "已准备",
     "SpellRangeLabel": "距离",
     "SpellRequirementsLabel": "需求",
     "SpellRitualLabel": "仪式",
-    "SpellSaveLabel": "法术 DC",
-    "SpellScalingLabel": "规模",
+    "SpellSaveLabel": "法术DC",
+    "SpellScalingLabel": "升阶",
     "SpellScalingModeLevel1": "升阶 (+1)",
     "SpellScalingModeLevel2": "升阶 (+2)",
     "SpellScalingModeLevel3": "升阶 (+3)",
@@ -1148,7 +1148,7 @@
     "StrikesLabel": "攻击",
     "Strike": {
       "Default": {
-        "Description": "你使用武器攻击或无武装攻击时 you&apos;re wielding, 选择一个在你触及范围 (近战攻击) 或在射程内 (远程攻击)的生物. 为你的这次攻击骰掷骰并用结果和该生物&apos;s 的AC比较来决定效果.",
+        "Description": "你使用武器攻击或无武装攻击时, 选择一个在你触及范围(近战攻击) 或在射程内(远程攻击)的生物. 为你的这次攻击骰掷骰并用结果和该生物的AC比较来决定效果.",
         "CriticalSuccess": "视作成功，你造成双倍伤害.",
         "Success": "你造成的伤害依据武器或无武装攻击的骰数，并加上全部伤害加值、调整值和罚值."
       },
@@ -1687,7 +1687,7 @@
     "TraitScrying": "探知",
     "TraitSeaDevil": "沙华鱼人",
     "TraitSecret": "秘密",
-    "TraitShoony": "Shoony",
+    "TraitShoony": "狗人",
     "TraitShove": "猛推",
     "TraitSimple": "简单",
     "TraitSkeleton": "骷髅",
@@ -1721,7 +1721,7 @@
     "TraitTransmutation": "变化系",
     "TraitTrap": "陷阱",
     "TraitTrip": "摔拌",
-    "TraitTroll": "T骰",
+    "TraitTroll": "巨魔",
     "TraitTwin": "成双",
     "TraitTwoHandD10": "双手 d10",
     "TraitTwoHandD12": "双手 d12",
@@ -2221,6 +2221,74 @@
       "PropertyDescriptionPassengers": "载具可能承载的乘客数量。",
       "PropertyDescriptionPilotingCheck": "表中列出了驾驶载具所需的驾驶技能检定。一些技能可能增加驾驶DC，在技能后的括号内列出DC调整值。",
       "PropertyDescriptionSpeed": "载具的速度。 括号内表示载具的动力和相应的速度。需要动物拖拽的载具标注了需要的动物数量。"
+    },
+    "NPC": {
+      "Creature": "生物",
+      "Edit": "编辑",
+      "Remove": "去除",
+      "EditTraits": "编辑特征",
+      "AddTrait": "添加特征",
+      "AddSkill": "添加技能",
+      "EditLanguages": "编辑语言",
+      "EditSenses": "编辑感官",
+      "EditSkills": "编辑技能",
+      "EditWeaknesses": "编辑弱点",
+      "EditResistances": "编辑抗力",
+      "EditImmunities": "编辑免疫",
+      "EditSpeed": "编辑速度",
+      "ShowInChat": "在聊天栏中显示",
+      "AddAction": "添加行动",
+      "AttackType": {
+        "Melee": "NPC 近战攻击",
+        "Ranged": "NPC 远战攻击",
+        "Weapon": "合集包 武器"
+      },
+      "ActionsList": {
+        "ActionName": "名称",
+        "Type": "种类",
+        "Cost": "消耗",
+        "Traits": "特征"
+      },
+      "Attacks": "攻击",
+      "ArmorExtraInfoLabelPlaceholder": "AC详细...",
+      "SpeedLabel": "速度",
+      "MainTab": "主要",
+      "InventoryTab": "物品",
+      "SpellsTab": "法术",
+      "NotesTab": "笔记",
+      "SensesLabel": "感官",
+      "SkillRollFlavor": "{skillName} 技能检定 ({rank})",
+      "SkillsEditor": {
+        "TitleLabel": "NPC技能编辑",
+        "NameLabel": "技能名称",
+        "BonusLabel": "加成",
+        "SpecialCaseLabel": "特殊情况"
+      },
+      "AddItem": "添加物品",
+      "AddWeapon": "武器",
+      "AddArmor": "护甲",
+      "AddEquipment": "装备",
+      "AddConsumable": "消耗品",
+      "AddTreasure": "宝物",
+      "Inventory": {
+        "Header": {
+          "NameLabel": "名称",
+          "QuantityLabel": "数量"
+        }
+      },
+      "Spells": {
+        "DCLabel": "DC",
+        "AttackLabel": "攻击",
+        "PreparedLabel": "已准备",
+        "PreparedShortLabel": "已准备"
+      },
+      "Adjustment": {
+        "NormalLabel": "正常",
+        "WeakLabel": "弱小",
+        "EliteLabel": "精英",
+        "WeakNameFormat": "弱小 {name}",
+        "EliteNameFormat": "精英 {name}"
+      }
     }
   },
   "PF2e": {
