@@ -22,6 +22,6 @@
   ],
 
   "url": "https://gitlab.com/losyk/pf2_cn",
-  "manifest": "https://gitlab.com/losyk/pf2_cn/raw/master/module.json",
+  "manifest": "https://gitlab.com/losyk/pf2_cn/raw/main/module.json",
   "download": "https://github.com/losyky/pf2_cn/releases/download/1.0.1/pf2_cn.zip"
 }
